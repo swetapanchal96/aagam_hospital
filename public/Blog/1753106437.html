@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" /> -->
+
+		<title>Aagam Hospital</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css"
+			href="assets/vendor/bootstrap-select/css/bootstrap-select.min.css">
+		<!-- Swiper CSS -->
+
+		<link rel="stylesheet" href="assets/vendor/swiper/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<link rel="preconnect" href="fonts.googleapis.com/index.html">
+		<link rel="preconnect" href="fonts.gstatic.com/index.html" crossorigin>
+		<link
+			href="fonts.googleapis.com/css29dd3.css?family=Exo:wght@100;200;300;400;500;600;700;800;900&amp;family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+			rel="stylesheet">
+
+	</head>
+<body>
+    <div class="page-wraper">
+        <div id="loading-icon-bx">
+            <div class="loading-inner">
+                <div class="load-one"></div>
+                <div class="load-two"></div>
+                <div class="load-three"></div>
+            </div>
+        </div>
+
+        <!-- header -->
+			<header class="header header-transparent rs-nav">
+				<!-- main header -->
+				<div class="sticky-header navbar-expand-lg">
+					<div class="menu-bar clearfix">
+						<div class="container-fluid clearfix">
+							<!-- website logo -->
+							<div class="menu-logo logo-dark">
+								<a href="#"><img src="assets/images/logo.png" alt></a>
+							</div>
+							<!-- nav toggle button -->
+							<button class="navbar-toggler collapsed menuicon justify-content-end"
+								type="button" data-bs-toggle="collapse" data-bs-target="#menuDropdown"
+								aria-controls="menuDropdown" aria-expanded="false"
+								aria-label="Toggle navigation">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+							<!-- extra nav -->
+							<div class="secondary-menu">
+								<ul>
+
+									<li class="num-bx"><a href="tel:(+01)999888777"><i
+												class="fas fa-phone-alt"></i> (+01) 999 888 777</a></li>
+									<li class="btn-area"><a href="contact-us.html"
+											class="btn btn-primary shadow">Book Appointment </a></li>
+								</ul>
+							</div>
+
+							<div class="menu-links navbar-collapse collapse justify-content-end"
+								id="menuDropdown">
+								<div class="menu-logo">
+									<a href="index.html"><img src="assets/images/logo-white.png" alt></a>
+								</div>
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="index.html">Home</a></li>
+									<li>
+										<a href="about-us.html">About Us </a>
+
+									</li>
+									<li>
+										<a href="ortho-services.html">Ortho Services <i class="fas fa-plus"></i></a>
+										<ul class="sub-menu">
+											<li class="add-menu-left">
+												<ul>
+													<!-- <li><a href="services.html"><span>Ortho Service</span> </a></li> -->
+													<li><a href="acl-reconstruction.html"><span>ACL Reconstruction</span></a></li>
+													<li><a href="pcl-reconstruction.html"><span>PCL Reconstruction</span></a></li>
+													<li><a href="cartilage-surgery.html"><span>Cartilage Surgery</span></a></li>
+													<li><a href="bankart-repair.html"><span>Bankart Repair</span></a></li>
+													<li><a href="knee-replacement.html"><span>Knee Replacement</span></a></li>
+													<li><a href="hip-replacement.html"><span>Hip Replacement</span></a></li>
+													<li><a href="arthroscopy-surgery.html"><span>Arthroscopy Surgery</span></a></li>
+													<li><a href="trauma-surgery.html"><span>Trauma Surgery</span></a></li>
+													<li><a href="shoulder-rotator-cuff-repair.html"><span>Shoulder rotator cuff repair</span></a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="pediatric-services.html">Pediatric services <i
+												class="fas fa-plus"></i></a>
+										<ul class="sub-menu">
+											<li class="add-menu-left">
+												<ul>
+													<li><a href="newborn-care.html"><span>Newborn Care & Consultation</span> </a></li>
+													<li><a href="well-baby-visits.html"><span>Well-Baby clinic / Routine Checkups</span></a></li>
+													<li><a href="child-growth.html"><span>Child Growth & Development Assessment</span></a></li>
+													<li><a href="vaccination.html"><span>Vaccination clinic</span></a></li>
+													<li><a href="nutrition.html"><span>Nutrition & Feeding Advice</span></a></li>
+													<li><a href="school-physical.html"><span>School Physical & Fitness Certificates</span></a></li>
+													<li><a href="adolescent-health.html"><span>Adolescent Health Checkups</span></a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href="blog.html">Blog</a></li>
+									<li>
+										<a href="#">Gallery <i class="fas fa-plus"></i></a>
+										<ul class="sub-menu">
+											<li class="add-menu-left">
+												<ul>
+													<li><a href="photos.html"><span>Photos</span> </a></li>
+													<li><a href="videos.html"><span>Videos</span></a></li>
+													
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href="contact-us.html">Contact Us</a></li>
+								</ul>
+								<ul class="social-media">
+									<li><a target="_blank" href="https://www.facebook.com/"
+											class="btn btn-primary"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a target="_blank" href="https://www.linkedin.com/"
+											class="btn btn-primary"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a target="_blank" href="https://twitter.com/"
+											class="btn btn-primary"><i class="fab fa-twitter"></i></a></li>
+								</ul>
+								<div class="menu-close">
+									<i class="ti-close"></i>
+								</div>
+							</div>
+							<!-- Navigation Menu END ==== -->
+						</div>
+					</div>
+				</div>
+				<!-- main header END -->
+			</header>
+			<!-- header END -->
+
+            <div class="page-content bg-white">
+                <!-- Inner Banner -->
+                <div class="banner-wraper">
+                    <div class="page-banner"
+                        style="background-image:url(assets/images/banner/img1.jpg);">
+                        <div class="container">
+                            <div class="page-banner-entry text-center">
+                                <h1>Child Growth & Development Assessment</h1>
+                                <!-- Breadcrumb row -->
+                                <nav aria-label="breadcrumb"
+                                    class="breadcrumb-row">
+                                    <ul class="breadcrumb">
+                                        <li class="breadcrumb-item"><a
+                                                href="index-2.html"><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="22" height="22"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
+                                                    stroke="currentColor"
+                                                    stroke-width="2"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    class="feather feather-home"><path
+                                                        d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline
+                                                        points="9 22 9 12 15 12 15 22"></polyline></svg>
+                                                Home</a></li>
+                                        <li class="breadcrumb-item active"
+                                            aria-current="page">Child Growth & Development Assessment</li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <img class="pt-img1 animate-wave"
+                            src="assets/images/shap/wave-blue.png" alt>
+                        <img class="pt-img2 animate2"
+                            src="assets/images/shap/circle-dots.png" alt>
+                        <img class="pt-img3 animate-rotate"
+                            src="assets/images/shap/plus-blue.png" alt>
+                    </div>
+                    <!-- Breadcrumb row END -->
+                </div>
+                <!-- Inner Banner end -->
+
+                <!-- About us -->
+                <section class="section-area section-sp1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mb-30">
+                                <div class="ttr-media mb-30">
+                                    <img src="assets/images/service/pcl-2.jpeg"
+                                        class="rounded img-fluid" alt>
+                                </div>
+                                <div class="clearfix">
+                                    <div class="head-text mb-30">
+                                        <h2 class="title mb-15">Child Growth & Development Assessment</h2>
+                                        <p class="mb-0">Child Growth & Development Assessment is a vital pediatric service that monitors a child’s physical growth and developmental milestones to ensure they are progressing appropriately for their age. It involves regular evaluation of a child’s height, weight, head circumference, and body mass index (BMI), along with developmental screenings that assess motor skills, language, cognition, and social-emotional behavior.
+                                        </p>
+                                        <p>This service helps in the early identification of growth disorders, nutritional deficiencies, or developmental delays. If any concerns are detected, timely referrals and interventions can significantly improve outcomes. It also provides reassurance and guidance to parents on supporting their child’s healthy development at each stage.</p>
+                                        <p>Ideal for children from birth through adolescence, this assessment plays a key role in preventive child healthcare.</p>
+                                    </div>
+                                </div>
+                                <!-- symptoms start -->
+                                <div class>
+                                    <h4 class="title">Symptoms of Newborn Care &
+                                        Consultation</h4>
+                                    <!-- <p>An ACL tear usually presents with the following symptoms:</p> -->
+                                    <div class="row align-items-center">
+                                        <div class="col-md-12 mb-30">
+                                            <ul class="list-check-squer mb-0">
+                                                <li>Poor Weight Gain or Weight Loss: Weight below expected range for age.Falling percentiles on the growth chart</li>
+                                                <li>Short Stature or Height Concerns:
+                                                    Height significantly below age norms</li>
+                                                <li> Developmental Delays:
+                                                    Delayed sitting, crawling, walking, or talking</li>
+                                                <li> Speech & Language Concerns: Not babbling by 12 months.No clear words by 18 months</li>
+                                                <li>   Abnormal Muscle Tone or Posture: Floppiness (hypotonia) or stiffness (hypertonia) </li>
+                                                <li>Poor Eye Contact or Social Interaction: Lack of smiling, pointing, or responding to caregivers</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- symptoms end-->
+
+                                <div class="clearfix">
+                                    <div class="head-text mb-30">
+                                        <h4 class="title mb-10">Popular
+                                            Questions</h4>
+                                    </div>
+                                    <div class="accordion ttr-accordion1"
+                                        id="accordionRow1">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"
+                                                id="heading1">
+                                                <button class="accordion-button"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse1"
+                                                    aria-expanded="true"
+                                                    aria-controls="collapse1">What is a Child Growth & Development Assessment?
+                                                </button>
+                                            </h2>
+                                            <div id="collapse1"
+                                                class="accordion-collapse collapse show"
+                                                aria-labelledby="heading1"
+                                                data-bs-parent="#accordionRow1">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">This is a comprehensive evaluation of your child’s physical growth (height, weight, head circumference) and developmental milestones (motor skills, speech, behavior, learning, and social interaction) to ensure age-appropriate progress and identify any concerns early.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"
+                                                id="heading2">
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse2"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapse2">At what age should my child begin growth and development assessments?</button>
+                                            </h2>
+                                            <div id="collapse2"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="heading2"
+                                                data-bs-parent="#accordionRow1">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">Assessments typically begin at birth and continue regularly during well-baby visits and annual checkups. Key evaluation ages include:
+                                                    </p>
+                                                    <div class="faq">
+                                                        <ul>
+                                                            <li>Birth to 2 years: every 2–3 months</li>
+                                                            <li>Ages 2–5: every 6 months</li>
+                                                            <li>After 5 years: annually or as needed</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"
+                                                id="heading3">
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse3"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapse3"> What does the doctor check during a developmental assessment?</button>
+                                            </h2>
+                                            <div id="collapse3"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="heading3"
+                                                data-bs-parent="#accordionRow1">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">The pediatrician will observe your child’s gross motor skills (like sitting, walking), fine motor skills (like grasping), language abilities, cognitive skills (problem-solving), and social-emotional behaviors based on standardized developmental checklists.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"
+                                                id="heading4">
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse4"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapse4"> How do I know if my child is growing normally?</button>
+                                            </h2>
+                                            <div id="collapse4"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="heading4"
+                                                data-bs-parent="#accordionRow1">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">Your child’s height, weight, and BMI are plotted on growth charts to compare them with peers of the same age and gender. Consistent growth along a percentile curve typically indicates healthy development.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"
+                                                id="heading5">
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse5"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapse5">What are the signs of a developmental delay?</button>
+                                            </h2>
+                                            <div id="collapse5"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="heading5"
+                                                data-bs-parent="#accordionRow1">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">Delays may include not sitting by 8 months, not walking by 18 months, no meaningful words by 2 years, poor social interaction, or difficulty following commands. If such signs are present, a developmental screening is recommended.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"
+                                                id="heading6">
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse6"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapse6"> Can growth assessments detect nutritional deficiencies?</button>
+                                            </h2>
+                                            <div id="collapse6"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="heading6"
+                                                data-bs-parent="#accordionRow1">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">Yes. Poor weight gain, stunted height, or abnormal BMI may suggest undernutrition or vitamin/mineral deficiencies (e.g., iron, vitamin D), which can be confirmed through lab tests and addressed through dietary guidance.   </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"
+                                                id="heading7">
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse7"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapse7">
+                                                    What happens if a delay or concern is identified?</button>
+                                            </h2>
+                                            <div id="collapse7"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="heading7"
+                                                data-bs-parent="#accordionRow1">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">If a delay or disorder is suspected, your pediatrician may refer your child to a specialist such as a speech therapist, physiotherapist, occupational therapist, developmental pediatrician, or endocrinologist depending on the issue.
+
+                                                    </p>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"
+                                                id="heading8">
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse8"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapse8">Are these assessments painful or invasive for children?</button>
+                                            </h2>
+                                            <div id="collapse8"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="heading8"
+                                                data-bs-parent="#accordionRow1">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">No. Most assessments are observation-based, involve gentle physical examination, growth measurements, and parent interviews. If needed, simple blood or imaging tests may be recommended separately.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"
+                                                id="heading9">
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse9"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapse9">Can I ask questions about my child’s behavior or learning during the visit?</button>
+                                            </h2>
+                                            <div id="collapse9"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="heading9"
+                                                data-bs-parent="#accordionRow1">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">Absolutely. These checkups are the right time to raise concerns about tantrums, attention issues, learning difficulties, social behavior, or sleep patterns.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"
+                                                id="heading10">
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse10"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapse10">Is this service covered during routine pediatric visits?</button>
+                                            </h2>
+                                            <div id="collapse10"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="heading10"
+                                                data-bs-parent="#accordionRow1">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">Yes, growth and development assessments are typically included in routine well-baby or annual pediatric checkups. However, more detailed screenings or referrals may involve separate appointments or services.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <aside class="sticky-top pb-1">
+                                    <div class="widget">
+                                        <ul class="service-menu">
+                                            <li class="active"><a
+                                                    href="newborn-care.html"><span>Newborn
+                                                        Care &
+                                                        Consultation</span> <i
+                                                        class="fa fa-angle-right"></i>
+                                                </a></li>
+                                            <li><a
+                                                    href="well-baby-visits.html"><span>Well-Baby
+                                                        clinic / Routine
+                                                        Checkups</span> <i
+                                                        class="fa fa-angle-right"></i></a></li>
+                                            <li><a
+                                                    href="child-growth.html"><span>Child
+                                                        Growth & Development
+                                                        Assessment</span> <i
+                                                        class="fa fa-angle-right"></i></a></li>
+                                            <li><a
+                                                    href="vaccination.html"><span>Vaccination
+                                                        clinic</span> <i
+                                                        class="fa fa-angle-right"></i></a></li>
+                                            <li><a
+                                                    href="nutrition.html"><span>Nutrition
+                                                        & Feeding Advice</span>
+                                                    <i
+                                                        class="fa fa-angle-right"></i></a></li>
+                                            <li><a
+                                                    href="school-physical.html"><span>School
+                                                        Physical & Fitness
+                                                        Certificates</span> <i
+                                                        class="fa fa-angle-right"></i></a></li>
+                                            <li><a
+                                                    href="adolescent-health.html"><span>Adolescent
+                                                        Health Checkups</span>
+                                                    <i
+                                                        class="fa fa-angle-right"></i></a></li>
+
+                                        </ul>
+                                    </div>
+
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Footer ==== -->
+			<footer class="footer"
+            style="background-image:url(images/background/footer.jpg);">
+            <!-- Footer Top -->
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6">
+                            <div class="widget widget_info">
+                                <div class="footer-logo">
+                                    <a href="index-2.html"><img src="assets/images/logo.png" alt></a>
+                                </div>
+                                <div class="ft-contact">
+                                    <p>At Aagam Hospital, we are committed to delivering high quality
+                                        healthcare with a personal touch.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-6">
+                            <div class="widget footer_widget ml-50">
+                                <h3 class="footer-title">Quick Links</h3>
+                                <ul>
+                                    <li><a href="about-us.html"><span>About Us</span></a></li>
+                                    <li><a href="services.html"><span> Ortho Services</span></a></li>
+                                    <li><a href="#"><span> Pediatric Services</span></a></li>
+
+                                    <li><a href="#"><span>Contact us</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-6">
+                            <div class="widget footer_widget">
+                                <h3 class="footer-title">Our Services</h3>
+                                <ul>
+                                    <li><a href="#"><span>Child Growth & Development
+                                                Monitoring</span></a></li>
+                                    <li><a href="#"><span>Vaccinations / Immunization
+                                                Services</span></a></li>
+                                    <li><a href="#"><span>Pediatric Nutrition & Diet
+                                                Guidance</span></a></li>
+                                    <li><a href="#"><span>Hip Replacement Surgery</span></a></li>
+                                    <li><a href="#"><span>Knee Replacement</span></a></li>
+                                    <li><a href="#"><span>Fracture & Trauma Care</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6">
+                            <div class="widget widget_form">
+                                <h3 class="footer-title">Locate Us</h3>
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <i class="las la-2x la-phone"></i> +91 9727754621
+                                        </li>
+                                        <li>
+                                            <i class="las la-2x  la-envelope"></i> info@aagaminfotech.com
+                                        </li>
+                                        <li>
+                                            <i class="las la-2x la-map-marker"></i> 302, Titanium City Center
+                                            Mall, Besides Sachin Tower, 100' Anandnagar road, Satellite,
+                                            Ahmedabad-380015
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-social-link">
+                                    <ul>
+                                        <li><a target="_blank" href="https://www.facebook.com/"><i
+                                                    class="lab la-2x la-facebook"></i></a></li>
+                                        <li><a target="_blank" href="https://twitter.com/"><i
+                                                    class="las la-2x la-twitter"></i></a></li>
+                                        <li><a target="_blank" href="https://www.instagram.com/"><i
+                                                    class="lab la-2x la-instagram"></i></a></li>
+                                        <li><a target="_blank" href="https://www.linkedin.com/"><i
+                                                    class="lab la-2x la-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer bottom -->
+            <div class="container">
+                <div class="footer-bottom">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <p class="copyright-text">Copyright © 2025 Aagam Hospital</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-shape -->
+            <img class="pt-img1 animate-wave" src="assets/images/shap/wave-blue.png"
+                alt>
+            <img class="pt-img2 animate1" src="assets/images/shap/circle-dots.png" alt>
+            <img class="pt-img3 animate-rotate" src="assets/images/shap/plus-blue.png"
+                alt>
+            <img class="pt-img4 animate-wave" src="assets/images/shap/wave-blue.png"
+                alt>
+        </footer>
+        <!-- Footer END ==== -->
+        <button class="back-to-top fa fa-chevron-up" style="display: inline-block;"></button>
+
+
+    </div>
+    <!-- JAVASCRIPT FILES ========================================= -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script
+        src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script
+        src="assets/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <!-- Swiper JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script
+        src="assets/vendor/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+        integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

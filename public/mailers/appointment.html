@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Service Contact</title>
+    <style>
+        body {
+            background: #f5f7fa;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .mail-card {
+            background: #fff;
+            max-width: 400px;
+            margin: 40px auto;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(60,40,30,0.15);
+            padding: 32px 20px 28px 20px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 18px auto;
+        }
+        .header {
+            background: linear-gradient(90deg, #4c3f3d 80%, #7e623c 100%);
+            color: #fff;
+            font-weight: 700;
+            font-size: 20px;
+            letter-spacing: 2px;
+            text-align: center;
+            border-radius: 10px;
+            padding: 10px 0 10px 0;
+            margin-bottom: 22px;
+            box-shadow: 0 3px 8px rgba(76,63,61,0.08);
+            text-transform: uppercase;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            font-size: 15px;
+        }
+        .info-table td {
+            padding: 12px 10px;
+            border-bottom: 1px solid #f0e8e4;
+            color: #3b302c;
+        }
+        .info-label {
+            font-weight: 600;
+            width: 40%;
+            background: #f2eceb;
+            border-radius: 8px 0 0 8px;
+            letter-spacing: 0.02em;
+        }
+        .info-value {
+            width: 60%;
+            background: #fbf9f8;
+            border-radius: 0 8px 8px 0;
+        }
+        @media (max-width: 520px) {
+            .mail-card {
+                max-width: 98vw;
+                padding: 10vw 2vw;
+            }
+            .header { font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="mail-card">
+        <img class="logo" src="https://www.aagamhospital.com/Front/assets/images/logo.png" alt="Aagam Hospital" width="255" height="80">
+        <div class="header">Contact Information</div>
+        <table class="info-table">
+            <tr>
+                <td class="info-label">Service Name:</td>
+                <td class="info-value">#service</td>
+            </tr>
+            <tr>
+                <td class="info-label">Name:</td>
+                <td class="info-value">#name</td>
+            </tr>
+            <tr>
+                <td class="info-label">Phone Number:</td>
+                <td class="info-value">#phone</td>
+            </tr>
+            <tr>
+                <td class="info-label">Appointment Date:</td>
+                <td class="info-value">#date</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

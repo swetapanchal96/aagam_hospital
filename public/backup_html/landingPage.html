@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aagam Hospital</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+
+<!-- Top Navbar -->
+<nav class="top-navbar">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+        <!-- Image Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/Aagam_Hospital.png" alt="Medical Logo">
+        </a>
+         <!-- Sliding Text -->
+         <div class="sliding-text-container">
+            <div class="sliding-text">
+                <span class="me-4 nav-text"><i class="fa-solid fa-phone"></i> Contact: <span style="color: #001f3f;">+91 9727754621</span></span>
+                <span class="me-4 nav-text"><i class="fa-solid fa-clock"></i> Work Hour: <span style="color: #001f3f;">09:00 - 20:00 Everyday</span></span>
+                <span class="me-4 nav-text" ><i class="fa fa-map-marker-alt nav-item"></i> Location: <span style="color: #001f3f;">Satellite, Ahmedabad :380015</span></span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- Bootstrap Carousel -->
+<div id="doctorCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <!-- First Slide (Left Text) -->
+        <div class="carousel-item active carousel-img" style="background-image: url('assets/images/carousel3img.jpg');">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="carousel-caption left">
+                    <h2 style="color: #17224D;">Caring for Life</h2>
+                    <h1>Leading the Way in Medical Excellence</h1>
+                    <a href="#learnmore" class="btn-custom">Leran More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Slide (Right Text) -->
+        <div class="carousel-item carousel-img" style="background-image: url('assets/images/carousel2img.png');">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="carousel-caption right">
+                    <h2 style="color: #17224D;">Dedicated & Professional</h2>
+                    <h1>Providing High-Quality Healthcare</h1>
+                    <a href="#learnmore" class="btn-custom">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#doctorCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#doctorCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+
+<!-- About Us Section -->
+<section class="about-section py-5">
+    <div class="container section-heading-container">
+        <h1 class="section-heading underline-hover text-center mb-4" data-aos="fade-up">About Us</h1>
+        <div class="row align-items-center">
+            <!-- Left Column: Text Content -->
+            <div class="col-lg-6 text-center text-md-start" data-aos="fade-up">
+                <h2 class="subheading">Lorem, ipsum.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fugit, voluptas accusantium quas aut voluptatem, 
+                    doloribus recusandae minus quia magnam error unde a illo eligendi qui nam incidunt ad vitae.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Quis ad assumenda perferendis suscipit a sequi quisquam eos, excepturi illo molestias.
+                </p>
+                <a href="#" class="btn btn-custom">Learn More</a>
+            </div>
+
+            <!-- Right Column: Doctor Image -->
+            <div class="col-lg-6 text-center" data-aos="fade-up">
+                <img src="assets/images/aboutUsimg.png" alt="Doctor Image" class="img-fluid rounded shadow object-fit-cover" style="height:500px; width:500px; border: 3px solid #005d98;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="doctor-section">
+    <div class="container section-heading-container">
+        <h2 class="section-title section-heading text-center mb-5" data-aos="fade-up" style="color: #17224D;">Our Expert Doctors</h2>
+        <div class="row">
+            <!-- Doctor 1 -->
+            <div class="col-lg-6 col-md-6">
+                <div class="doctor-card" data-aos="fade-up">
+                    <div class="doctor-image">
+                        <img src="assets/images/doctor1.jpg" alt="Doctor 1">
+                        <div class="doctor-info">
+                            <h3>Dr Padmanabh Vora</h3>
+                            <p>Orthopaedic Surgeon </p>
+                            <a href="#" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doctor 2 -->
+            <div class="col-lg-6 col-md-6">
+                <div class="doctor-card" data-aos="fade-up">
+                    <div class="doctor-image">
+                        <img src="assets/images/doctor1img.jpg" alt="Doctor 2">
+                        <div class="doctor-info">
+                            <h3>Dr. Emily Smith</h3>
+                            <p>Pediatrician</p>
+                            <a href="#" class="btn btn-primary">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap Card Section -->
+<section class="card-section py-5">
+    <div class="container section-heading-container">
+        <h2 class="section-heading text-center mb-5" data-aos="fade-up">Ortho Services</h2>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up">
+                <div class="card">
+                    <img src="assets/images/knee_replace.jpg" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Knee Replacement</h5>
+                        <p class="card-text">Providing the best medical services with top-notch facilities and expert doctors.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up">
+                <div class="card">
+                    <img src="assets/images/shoulder_replace.webp" class="card-img-top" alt="Service 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Shoulder Replacement</h5>
+                        <p class="card-text">24/7 emergency care to ensure immediate assistance during critical situations.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up">
+                <div class="card" >
+                    <img src="assets/images/hip_replace.webp" class="card-img-top" alt="Service 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Hip Replacement</h5>
+                        <p class="card-text">A team of skilled and experienced doctors to provide the best healthcare services.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap Card Section -->
+<section class="card-section card-color py-5">
+    <div class="container section-heading-container">
+        <h2 class="section-heading text-center mb-5" data-aos="fade-up">Pediatrician Services</h2>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6 col-12"  data-aos="fade-up">
+                <div class="card">
+                    <img src="assets/images/Vaccination.webp" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Vaccination</h5>
+                        <p class="card-text">Providing the best medical services with top-notch facilities and expert doctors.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up">
+                <div class="card">
+                    <img src="assets/images/daily_checkUp.png" class="card-img-top" alt="Service 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Daily CheckUP</h5>
+                        <p class="card-text">24/7 emergency care to ensure immediate assistance during critical situations.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up">
+                <div class="card">
+                    <img src="assets/images/nutrition.jpg" class="card-img-top" alt="Service 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Nutritionist</h5>
+                        <p class="card-text">A team of skilled and experienced doctors to provide the best healthcare services.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Appointment Section -->
+<section class="appointment-section">
+    <div class="container1">
+        <div class="row align-items-center">
+            <!-- Left Side - Text Content -->
+            <div class="col-lg-6 text-content " data-aos="fade-up">
+                <h2 style="color: #001f3f;">Book an Appointment</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. 
+                    Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.</p>
+            </div>
+
+            <!-- Right Side - Form -->
+            <div class=" col-lg-6 appointment-form" data-aos="fade-up">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Name">
+                        <select>
+                            <option>Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" placeholder="Email">
+                        <input type="tel" placeholder="Phone">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="date">
+                        <input type="time">
+                    </div>
+
+                    <div class="form-group">
+                        <select>
+                            <option>Doctor</option>
+                            <option>Dr. Smith</option>
+                            <option>Dr. Johnson</option>
+                        </select>
+                        <select>
+                            <option>Services</option>
+                            <option>Ortho</option>
+                            <option>Pediatrician</option>
+                        </select>
+                    </div>
+
+                    <textarea placeholder="Message"></textarea>
+
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonial-section">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">What Our Patients Say</h2>
+
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
+            
+            <!-- Carousel Indicators (Dots) -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <!-- Testimonial 1 -->
+                <div class="carousel-item active">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            "The best healthcare experience I've ever had! The doctors and staff were incredibly helpful and professional."
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis quaerat quibusdam fugiat voluptas dolor eum quos inventore, assumenda est obcaecati itaque voluptatibus! Pariatur sequi, accusamus consequatur distinctio doloremque in. Neque, ipsam inventore corrupti explicabo doloribus earum voluptas delectus consequuntur, 
+                            placeat officiis dolorum enim libero repellat sit distinctio, sequi necessitatibus error!
+                            "A wonderful hospital with great doctors and friendly staff. My recovery process was smooth and easy!"
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, explicabo laudantium perspiciatis minus id necessitatibus pariatur neque unde quia fugiat, earum eaque amet consequatur eius nostrum provident est quos veritatis voluptate! Eius nisi, incidunt adipisci a maxime, 
+                            nesciunt odio suscipit nulla voluptas enim eaque, facilis nobis amet sit modi quidem.
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/random_img.jpg" alt="Patient Image">
+                            <div>
+                                <h4>John Doe</h4>
+                                <p>Recovered Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="carousel-item">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            "Amazing service and top-notch medical facilities. Highly recommended for anyone looking for quality treatment!"
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maxime fugiat ducimus voluptatum sequi qui c
+                            orrupti pariatur fugit voluptates perferendis? Fugit, facere odit. Deserunt animi cupiditate optio molestias, quidem unde nam exercitationem consequuntur ad laudantium similique eum
+                             magni quae vitae eligendi fuga temporibus amet quam omnis eos ut? Expedita, dolorum!
+                             "A wonderful hospital with great doctors and friendly staff. My recovery process was smooth and easy!"
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, explicabo laudantium perspiciatis minus id necessitatibus pariatur neque unde quia fugiat, earum eaque amet consequatur eius nostrum provident est quos veritatis voluptate! Eius nisi, incidunt adipisci a maxime, 
+                            nesciunt odio suscipit nulla voluptas enim eaque, facilis nobis amet sit modi quidem.
+
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/random_img.jpg" alt="Patient Image">
+                            <div>
+                                <h4>Jane Smith</h4>
+                                <p>Happy Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="carousel-item">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            "A wonderful hospital with great doctors and friendly staff. My recovery process was smooth and easy!"
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, explicabo laudantium perspiciatis minus id necessitatibus pariatur neque unde quia fugiat, earum eaque amet consequatur eius nostrum provident est quos veritatis voluptate! Eius nisi, incidunt adipisci a maxime, 
+                            nesciunt odio suscipit nulla voluptas enim eaque, facilis nobis amet sit modi quidem.
+                            "A wonderful hospital with great doctors and friendly staff. My recovery process was smooth and easy!"
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, explicabo laudantium perspiciatis minus id necessitatibus pariatur neque unde quia fugiat, earum eaque amet consequatur eius nostrum provident est quos veritatis voluptate! Eius nisi, incidunt adipisci a maxime, 
+                            nesciunt odio suscipit nulla voluptas enim eaque, facilis nobis amet sit modi quidem.
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/random_img.jpg" alt="Patient Image">
+                            <div>
+                                <h4>Michael Brown</h4>
+                                <p>Recovered Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="services-area ptb-100">
+    <div class="container ">
+        <div class="row align-items-center" data-aos="fade-up">
+            <div class="col-lg-5 col-md-12">
+                <div class="services-title-content text-lg-start">
+                    
+                    <h2>Why Choose Aagam Hospital </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aspernatur vel harum aliquam rerum iure inventore error quibusdam maxime possimus in!</p>
+                </div>
+            </div>
+
+            <div class="col-lg-7 col-md-12">
+                <div class="row m-0">
+                    <div class="col-lg-12 col-md-12 col-sm-12 p-0">
+                        <div class="single-services-box">
+                            <h3> Lorem, ipsum dolor.</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                                perferendis adipisci! Cumque ex similique excepturi. Perspiciatis officiis cum sunt placeat!</p>
+                            <a href="#" class="read-more-btn">Read More </a>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 p-0">
+                        <div class="single-services-box">
+                            <h3> Lorem, ipsum dolor.</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                                 perferendis adipisci! Cumque ex similique excepturi. Perspiciatis officiis cum sunt placeat! </p>
+                            <a href="#" class="read-more-btn">Read More</a>
+                        </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer1">
+    <div class="container">
+       
+            
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>© 2025 All Rights Reserved by Aagam Hospital</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        
+    </div>
+</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>
+
+
+
